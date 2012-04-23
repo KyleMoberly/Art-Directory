@@ -1,0 +1,16 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Masters/MasterPage.master" %>
+
+<asp:Content ContentPlaceHolderID="Main" runat="server">
+
+    <div class="column">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="rightcolumn">
+        <asp:ContentPlaceHolder ID="RightColumn" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>
+

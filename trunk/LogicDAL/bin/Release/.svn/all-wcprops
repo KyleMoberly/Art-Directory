@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/cis390project/!svn/ver/61/trunk/LogicDAL/bin/Release
+END
+LogicDAL.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/cis390project/!svn/ver/32/trunk/LogicDAL/bin/Release/LogicDAL.pdb
+END
+Microsoft.Practices.EnterpriseLibrary.Logging.dll
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/cis390project/!svn/ver/9/trunk/LogicDAL/bin/Release/Microsoft.Practices.EnterpriseLibrary.Logging.dll
+END
+Microsoft.Practices.EnterpriseLibrary.Common.dll
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/cis390project/!svn/ver/9/trunk/LogicDAL/bin/Release/Microsoft.Practices.EnterpriseLibrary.Common.dll
+END
+Microsoft.Practices.EnterpriseLibrary.Data.dll
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/cis390project/!svn/ver/9/trunk/LogicDAL/bin/Release/Microsoft.Practices.EnterpriseLibrary.Data.dll
+END
+Microsoft.Practices.ObjectBuilder.dll
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cis390project/!svn/ver/9/trunk/LogicDAL/bin/Release/Microsoft.Practices.ObjectBuilder.dll
+END
+LogicDAL.dll
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/cis390project/!svn/ver/32/trunk/LogicDAL/bin/Release/LogicDAL.dll
+END
+Microsoft.Practices.EnterpriseLibrary.Logging.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/cis390project/!svn/ver/9/trunk/LogicDAL/bin/Release/Microsoft.Practices.EnterpriseLibrary.Logging.xml
+END
+Microsoft.Practices.EnterpriseLibrary.Common.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/cis390project/!svn/ver/9/trunk/LogicDAL/bin/Release/Microsoft.Practices.EnterpriseLibrary.Common.xml
+END
+Microsoft.Practices.EnterpriseLibrary.Data.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/cis390project/!svn/ver/9/trunk/LogicDAL/bin/Release/Microsoft.Practices.EnterpriseLibrary.Data.xml
+END
+LogicDAL.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/cis390project/!svn/ver/32/trunk/LogicDAL/bin/Release/LogicDAL.xml
+END

@@ -1,0 +1,159 @@
+Imports System.Text
+
+Public Class ConstantsLibrary
+
+    Public Shared LOCAL_ART_DB As String = "strLocalArtDB"
+    Public Shared ALL_STATES As String = "SELECT * FROM StateCD"
+    Public Shared ALL_ART_LISTINGS As String = "SELECT * FROM ArtListing"
+    Public Shared ALL_PERSONS As String = "SELECT * FROM Person"
+    Public Shared ALL_CATEGORIES As String = "SELECT * FROM Categories"
+    Public Shared ALL_PROJECTS As String = "SELECT * FROM Projects"
+    Public Shared ALL_ROLES As String = "SELECT * FROM Roles"
+    Public Shared ADMIN_ROLE As String = "SELECT * FROM Roles WHERE RoleID = 'Admin'"
+    Public Shared USER_KEY As String = "User"
+    Public Shared ALL_PARENT_CATEGORIES As String = "SELECT * FROM Categories WHERE CatParentID IS NULL"
+    Public Shared ARTIST_KEY As String = "Artist"
+
+    Public Shared ReadOnly Property SQL_GET_ROLE_BY_ID(ByVal id As String) As String
+        Get
+            Dim sb As New StringBuilder()
+            sb.Append("SELECT * FROM Roles WHERE RoleID = '")
+            sb.Append(id)
+            sb.Append("'")
+            Return sb.ToString()
+        End Get
+    End Property
+
+    Public Shared ReadOnly Property SQL_CREATE_NEW_ART_LISTING(ByVal artListing As IArtListing) As String
+        Get
+            Dim sb As New StringBuilder()
+            sb.Append("INSERT INTO ArtListing ")
+            sb.Append("(listName, listPhone, listAddress1, listAddress2, listCity,")
+            If artListing.State IsNot Nothing Then
+                sb.Append("stateCD,")
+            End If
+            sb.Append("listZip, listEmail, personId, activeYN, modDt, listUrl, listFeaturedYN, listPhoto, listDescription)")
+            sb.Append("VALUES ('")
+            sb.Append(artListing.Name & "','")
+            sb.Append(artListing.PhoneNumber & "','")
+            sb.Append(artListing.AddressOne & "','")
+            sb.Append(artListing.AddressTwo & "','")
+            sb.Append(artListing.City & "','")
+            sb.Append(artListing.State & "','")
+            'If artListing.State IsNot Nothing Then
+            'sb.Append(artListing.State.StateCode & "','")
+            'End If
+            sb.Append(artListing.Zipcode & "','")
+            sb.Append(artListing.Email & "','")
+            sb.Append(artListing.Person & "','")
+            sb.Append(artListing.IsActive.ToString() & "','")
+            sb.Append(artListing.DateLastModified.ToString() & "','")
+            sb.Append(artListing.URL & "','")
+            sb.Append(artListing.IsFeatured.ToString() & "','")
+            sb.Append(artListing.ImagePath & "','")
+            sb.Append(artListing.Description & "')")
+
+            Return sb.ToString()
+        End Get
+    End Property
+
+    Public Shared ReadOnly Property SQL_GET_ART_LISTINGS_BY_ARTIST(ByVal parameter As String) As String
+        Get
+            Dim sb As New StringBuilder()
+            sb.Append("SELECT * FROM ArtListing a INNER JOIN Person p ON a.personId = p.personId WHERE p.personId LIKE '")
+            sb.Append(parameter & "%' OR p.personFirstName LIKE '")
+            sb.Append(parameter & "%'")
+            Return sb.ToString()
+        End Get
+    End Property
+
+    Public Shared ReadOnly Property SQL_GET_ART_LISTINGS_BY_CATEGORY(ByVal parameter As String) As String
+        Get
+            Dim sb As New StringBuilder()
+            sb.Append("SELECT * FROM Artlisting WHERE listId IN (")
+            sb.Append("SELECT listId FROM list2categories l INNER JOIN Categories c ON l.CatID = c.CatID ")
+            sb.Append("WHERE CategoryDescription LIKE '")
+            sb.Append(parameter & "%' )")
+            Return sb.ToString()
+        End Get
+    End Property
+
+    Public Shared ReadOnly Property CATEGORIES_BY_PARENT_ID(ByVal id As Integer) As String
+        Get
+            Dim sb As New StringBuilder()
+            sb.Append("SELECT * FROM Categories WHERE CatParentID = {0}")
+            Return String.Format(sb.ToString(), id)
+        End Get
+    End Property
+
+    Public Shared ReadOnly Property CREATE_CATEGORY(ByVal category As ICategory) As String
+        Get
+            Dim sb As New StringBuilder()
+            sb.Append("INSERT INTO Categories (CategoryCD, CategoryDescription")
+
+            If category.ParentCategory IsNot Nothing Then
+                sb.Append(", CatParentID")
+            End If
+
+            sb.Append(") VALUES ('")
+            sb.Append(category.Code & "','")
+            sb.Append(category.Description & "'")
+
+            If category.ParentCategory IsNot Nothing Then
+                sb.Append(",'" & category.ParentCategory.PrimaryKey & "'")
+            End If
+
+            sb.Append(")")
+
+            Return sb.ToString()
+        End Get
+    End Property
+
+    Public Shared ReadOnly Property GET_CATEGORY_BY_ID(ByVal primaryKey As Integer) As String
+        Get
+            Dim sb As New StringBuilder()
+            sb.Append("SELECT * FROM Categories WHERE CatID = '")
+            sb.Append(primaryKey & "'")
+            Return sb.ToString()
+        End Get
+    End Property
+
+    Public Shared ReadOnly Property DELETE_CATEGORY(ByVal primaryKey As Integer) As String
+        Get
+            Dim sb As New StringBuilder()
+            sb.Append("DELETE FROM Categories WHERE CatID = '")
+            sb.Append(primaryKey & "'")
+            Return sb.ToString()
+        End Get
+    End Property
+
+    Public Shared ReadOnly Property SQL_UPDATE_CATEGORY(ByVal category As ICategory) As String
+        Get
+            Dim sb As New StringBuilder()
+            sb.Append("UPDATE Categories SET CategoryCD = '")
+            sb.Append(category.Code & "', CategoryDescription = '")
+            sb.Append(category.Description & "' ")
+
+            If category.ParentCategory IsNot Nothing Then
+                sb.Append(", CatParentID = ")
+                sb.Append(category.ParentCategory.PrimaryKey & " ")
+            End If
+
+            sb.Append("WHERE CatID = ")
+            sb.Append(category.PrimaryKey)
+
+            Return sb.ToString()
+        End Get
+    End Property
+
+    Public Shared ReadOnly Property Delete_State(ByVal state As State) As String
+        Get
+            Dim sb As New StringBuilder()
+            sb.Append("DELETE FROM StateCD WHERE StateCD = '")
+            sb.Append(state.StateCode & "'")
+            Return sb.ToString()
+        End Get
+    End Property
+
+
+End Class

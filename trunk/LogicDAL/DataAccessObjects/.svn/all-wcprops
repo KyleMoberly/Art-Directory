@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/cis390project/!svn/ver/66/trunk/LogicDAL/DataAccessObjects
+END
+PersonDAO.vb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/cis390project/!svn/ver/39/trunk/LogicDAL/DataAccessObjects/PersonDAO.vb
+END
+ProjectDAO.vb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/cis390project/!svn/ver/68/trunk/LogicDAL/DataAccessObjects/ProjectDAO.vb
+END
+RankingDAO.vb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/cis390project/!svn/ver/44/trunk/LogicDAL/DataAccessObjects/RankingDAO.vb
+END
+CategoryDAO.vb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/cis390project/!svn/ver/66/trunk/LogicDAL/DataAccessObjects/CategoryDAO.vb
+END
+ArtListingDAO.vb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cis390project/!svn/ver/65/trunk/LogicDAL/DataAccessObjects/ArtListingDAO.vb
+END
+StateDAO.vb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/cis390project/!svn/ver/19/trunk/LogicDAL/DataAccessObjects/StateDAO.vb
+END
+RoleDAO.vb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/cis390project/!svn/ver/39/trunk/LogicDAL/DataAccessObjects/RoleDAO.vb
+END
+IRankingDAO.vb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/cis390project/!svn/ver/30/trunk/LogicDAL/DataAccessObjects/IRankingDAO.vb
+END

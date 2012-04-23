@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/cis390project/!svn/ver/49/trunk/LogicDAL/ObjectModels
+END
+IArtListing.vb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/cis390project/!svn/ver/49/trunk/LogicDAL/ObjectModels/IArtListing.vb
+END
+IState.vb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/cis390project/!svn/ver/19/trunk/LogicDAL/ObjectModels/IState.vb
+END
+Ranking.vb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/cis390project/!svn/ver/30/trunk/LogicDAL/ObjectModels/Ranking.vb
+END
+IRole.vb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/cis390project/!svn/ver/39/trunk/LogicDAL/ObjectModels/IRole.vb
+END
+Category.vb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/cis390project/!svn/ver/28/trunk/LogicDAL/ObjectModels/Category.vb
+END
+IPerson.vb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/cis390project/!svn/ver/39/trunk/LogicDAL/ObjectModels/IPerson.vb
+END
+IProject.vb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/cis390project/!svn/ver/68/trunk/LogicDAL/ObjectModels/IProject.vb
+END
+ArtListing.vb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/cis390project/!svn/ver/49/trunk/LogicDAL/ObjectModels/ArtListing.vb
+END
+State.vb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/cis390project/!svn/ver/19/trunk/LogicDAL/ObjectModels/State.vb
+END
+Role.vb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/cis390project/!svn/ver/39/trunk/LogicDAL/ObjectModels/Role.vb
+END
+IRanking.vb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/cis390project/!svn/ver/30/trunk/LogicDAL/ObjectModels/IRanking.vb
+END
+ICategory.vb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/cis390project/!svn/ver/19/trunk/LogicDAL/ObjectModels/ICategory.vb
+END
+Person.vb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/cis390project/!svn/ver/39/trunk/LogicDAL/ObjectModels/Person.vb
+END
+Project.vb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/cis390project/!svn/ver/68/trunk/LogicDAL/ObjectModels/Project.vb
+END

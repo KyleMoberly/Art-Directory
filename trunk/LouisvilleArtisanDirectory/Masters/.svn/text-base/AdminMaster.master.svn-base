@@ -1,0 +1,52 @@
+<%@ Master Language="VB" CodeFile="AdminMaster.master.vb" EnableTheming="True" Inherits="Masters_AdminMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Administration</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <div class="header">
+        <div class="headerTopImage">
+        </div>
+        
+        <div class="adminNavigation">
+            <asp:HyperLink runat="server" ID="lnkAdminHome" NavigateUrl="~/AdminScreens/AdminHome.aspx">
+                Admin Home
+            </asp:HyperLink>
+            
+            <asp:HyperLink runat="server" ID="lnkManageCategories" NavigateUrl="~/AdminScreens/ManageCategoriesScreen.aspx">
+                Categories
+            </asp:HyperLink>
+            
+            <a href="#">
+                Artists
+            </a>
+            
+            <asp:HyperLink runat="server" ID="lnkListings" NavigateUrl="~/PublicScreens/ArtistAdmin.aspx">
+                ArtListings
+            </asp:HyperLink>
+            
+            
+            <a href="#">
+                Statistics
+            </a>
+            
+            <asp:HyperLink runat="server" ID="lnkFeatured" NavigateUrl="~/PublicScreens/FeaturedAdmin.aspx">
+                Featured Artists
+            </asp:HyperLink>
+        </div>
+    
+    </div>
+    
+    
+    <div  class="content">
+        <asp:contentplaceholder id="MainContent" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+</html>

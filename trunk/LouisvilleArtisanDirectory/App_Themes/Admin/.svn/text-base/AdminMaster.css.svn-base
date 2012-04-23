@@ -1,0 +1,44 @@
+﻿.header
+{   
+    width: 850px;
+    background-color: #003366;
+    color: white;
+    margin-left: 10%;
+}  
+
+.headerTopImage 
+{
+    background-image: url("../Images/MainBanner.jpg");
+    background-repeat: no-repeat;
+    height: 192px;
+}
+
+img
+{
+	 border: none;
+}
+
+.adminNavigation a 
+{
+    position: relative;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.searchBox 
+{
+    position: relative;
+    margin-left: 65%;
+    margin-top: 5px;
+}
+
+.content
+{
+    width: 800px;
+    margin-left: 11%;
+    margin-top: 10px;
+}

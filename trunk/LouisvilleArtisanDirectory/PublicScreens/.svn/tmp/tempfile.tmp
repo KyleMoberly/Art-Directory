@@ -1,0 +1,28 @@
+<%@ Page Language="VB" 
+         MasterPageFile="~/Masters/MasterPage.master" 
+         AutoEventWireup="false" 
+         CodeFile="ViewArtListings.aspx.vb" 
+         Inherits="PublicScreens_ViewArtListings" 
+         title="Current ArtListings" 
+         Theme="Public" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server">
+    
+    <asp:Repeater runat="Server" ID="listingsByArtist" datasourceId="ArtListingDS">
+        <ItemTemplate> 
+            <strong><%#Eval("Name")%> </strong> <br />
+            <hr />
+            
+            <%#Eval("Description") %>
+            <br />
+        </ItemTemplate>
+    </asp:Repeater>
+    <asp:ObjectDataSource ID="ArtListingDS" runat="server" SelectMethod="GetArtListingsByArtist"
+        TypeName="LogicDAL.ArtListingDAO">
+        <SelectParameters>
+            <asp:QueryStringParameter DefaultValue="" Name="parameter" QueryStringField="SearchByArtist"
+                Type="String" />
+        </SelectParameters>
+    </asp:ObjectDataSource>
+    
+</asp:Content>
+

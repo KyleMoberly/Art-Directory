@@ -1,0 +1,66 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb"  EnableTheming="true" Inherits="MasterPage"  %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <title>Untitled Page</title>
+    
+    
+</head>
+
+<body>
+    
+    <form id="form1" runat="server">
+        
+        <div class="header">
+        
+            <div class="headerTopImage">
+            </div>
+        
+            <div class="mainNavigation">
+                <a href="#">
+                    Home
+                </a>
+                
+                <asp:HyperLink ID="lnkProfiles" NavigateUrl="~/PublicScreens/ViewArtListings.aspx" runat="server">
+                    Listings
+                </asp:HyperLink>
+                
+                <asp:HyperLink ID="lnkProfile" NavigateUrl="~/PublicScreens/Artist.aspx" runat="server">
+                    Profile
+                </asp:HyperLink>
+                
+                <asp:HyperLink ID="lnkCreateAccount" NavigateUrl="~/PublicScreens/UserRegistrationPage.aspx" runat="server">
+                    Create Account
+                </asp:HyperLink>
+                
+                <asp:HyperLink ID="lnkLogin" NavigateUrl="~/PublicScreens/LoginScreen.aspx" runat="Server">
+                    Login
+                </asp:HyperLink>
+                
+                <asp:HyperLink ID="lnkAdmin" NavigateUrl="~/AdminScreens/AdminHome.aspx" runat="Server" Visible="False">
+                    Manage Directory
+                </asp:HyperLink>
+            </div>
+            
+            <div class="searchBox">
+                Search:
+                <asp:TextBox ID="txtSearch" runat="server"/>
+                <asp:Button ID="btnSearch" runat="server" Text="Search" OnClick="SearchListings" />
+                <br />
+                <asp:RadioButton  GroupName="rbgSearch" ID="Artist" runat="server" Text="Artist" /> 
+                <asp:RadioButton GroupName="rbgSearch" ID="Category" runat="server" Text="Category" /> 
+            </div>
+
+        </div>
+           
+        <div class="content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+    </form>
+</body>
+</html>

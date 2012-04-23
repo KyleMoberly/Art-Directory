@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LogicDAL">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\LogicDAL.sln">
+</Property><Property Name="User Options File" Value="C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\LogicDAL.suo">
+</Property><Property Name="Date" Value="Thursday, December 11, 2008">
+</Property><Property Name="Time" Value="20:36 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="LogicDAL.sln" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\LogicDAL.sln">
+</Event><Event ErrorLevel="0" Project="" Source="LogicDAL.suo" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\LogicDAL.suo">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="LogicDAL.vbproj" Description="Project file successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\LogicDAL.vbproj">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="LogicDAL.vbproj.user" Description="Project user file successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\LogicDAL.vbproj.user">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="ConstantsLibrary.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\ConstantsLibrary.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="DataAccessObjects\ArtListingDAO.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\DataAccessObjects\ArtListingDAO.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="DataAccessObjects\CategoryDAO.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\DataAccessObjects\CategoryDAO.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="DataAccessObjects\PersonDAO.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\DataAccessObjects\PersonDAO.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="DataAccessObjects\ProjectDAO.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\DataAccessObjects\ProjectDAO.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="DataAccessObjects\RoleDAO.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\DataAccessObjects\RoleDAO.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="DataAccessObjects\StateDAO.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\DataAccessObjects\StateDAO.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="My Project\Application.Designer.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="ObjectModels\ArtListing.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\ObjectModels\ArtListing.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="ObjectModels\Category.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\ObjectModels\Category.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="ObjectModels\IArtListing.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\ObjectModels\IArtListing.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="ObjectModels\ICategory.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\ObjectModels\ICategory.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="ObjectModels\IPerson.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\ObjectModels\IPerson.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="ObjectModels\IProject.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\ObjectModels\IProject.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="ObjectModels\IRole.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\ObjectModels\IRole.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="ObjectModels\IState.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\ObjectModels\IState.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="ObjectModels\Person.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\ObjectModels\Person.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="ObjectModels\Project.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\ObjectModels\Project.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="ObjectModels\Role.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\ObjectModels\Role.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="ObjectModels\State.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\ObjectModels\State.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="Utilities.vb" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\Utilities.vb">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="My Project\Application.myapp" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="My Project\Settings.settings" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="My Project\Resources.resx" Description="File successfully backed up as C:\Documents and Settings\Kaze\Desktop\Art Directory\trunk\LogicDAL\Backup1\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="LogicDAL.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="LogicDAL" Source="LogicDAL.vbproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="" Source="..\LouisvilleArtisanDirectory\" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="0" Project="" Source="LogicDAL.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="LogicDAL.sln" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="LogicDAL" Source="LogicDAL.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
